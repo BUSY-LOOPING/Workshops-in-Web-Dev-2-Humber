@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows XP - Emulator</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <div id="my-window-prototype" class="window active" style="width: 400px; height: 300px; position: absolute;">
+    <div class="title-bar">
+        <div class="title-text-container">
+            <img class="title-icon" src="assets/images/my_computer.png" alt="My Computer Icon">
+            <span class="title-text">My Computer</span>
+        </div>
+        <div class="controls">
+            <div class="btn minimize"><img src="assets/images/Minimize.png" alt=""></div>
+            <div class="btn maximize"><img src="assets/images/Maximize.png" alt=""></div>
+            <div class="btn close"><img src="assets/images/Exit.png" alt=""></div>
+        </div>
+    </div>
+    <div class="content">
+        <p>Shared Documents</p>
+        <p>User's Documents</p>
+    </div>
+
+    <!-- Resize handles -->
+    <div class="resize-handle n"></div>
+    <div class="resize-handle s"></div>
+    <div class="resize-handle e"></div>
+    <div class="resize-handle w"></div>
+    <div class="resize-handle ne"></div>
+    <div class="resize-handle nw"></div>
+    <div class="resize-handle se"></div>
+    <div class="resize-handle sw"></div>
+</div>
+
+
+
+    <img id="background" src="assets/images/background.jpg" alt="">
+    <div id="desktop">
+        <div id="icon-bar">
+            <div class="icon" id="myComputerIcon">🖥️<br>My PC</div>
+            <div class="icon" id="notesIcon">🗒️<br>Notes</div>
+        </div>
+    </div>
+    <footer>
+        <img src="assets/images/start_menu.png">
+
+        <div class="taskbar">
+            <div class="taskbar-app">
+                <img src="assets/images/internet_explorer_taskbar.png" alt="">
+                <span>Internet Explorer</span>
+            </div>
+
+            <div class="taskbar-app">
+                <img src="assets/images/internet_explorer_taskbar.png" alt="">
+                <span>Internet Explorer</span>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/main_template.js"></script>
+</body>
+
+</html>
